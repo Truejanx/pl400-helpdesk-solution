@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="TicketControls"
+           constructor="PriorityBadge"
+           version="0.0.1"
+           display-name-key="PriorityBadge_Display_Key"
+           description-key="PriorityBadge_Desc_Key"
+           control-type="standard">
+
+    <property name="priorityValue"
+              display-name-key="Priority_Display_Key"
+              description-key="Priority_Desc_Key"
+              of-type="Whole.Number"
+              usage="bound"
+              required="true" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+  </control>
+</manifest>
